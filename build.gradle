@@ -54,6 +54,8 @@ ext {
 
 dependencies {
     //TODO: add eureka starter
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 
     //TODO: add feign client library
 
